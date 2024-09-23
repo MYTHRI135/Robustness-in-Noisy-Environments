@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication</title>
+    <script>
+        function multiplyNumbers() {
+            // Get the values of the input fields
+            var num1 = document.getElementById('number1').value;
+            var num2 = document.getElementById('number2').value;
+
+            // Multiply the two numbers
+            var result = num1 * num2;
+
+            // Display the result in the 'result' div
+            document.getElementById('result').innerHTML = "Result: " + result;
+        }
+    </script>
+</head>
+<body>
+    <h1>Multiplication Calculator</h1>
+    
+    <!-- Input fields to enter two numbers -->
+    <label for="number1">
