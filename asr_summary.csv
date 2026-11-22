@@ -1,0 +1,9 @@
+pipeline,snr_db,wer,wer,wer,cer,cer,cer
+,,mean,std,count,mean,std,count
+clean,none,0.1,0.1053,5,0.043,0.0464,5
+noisy,0.0,0.2786,0.4199,5,0.1538,0.211,5
+noisy,10.0,0.1,0.1053,5,0.0464,0.0559,5
+noisy,20.0,0.1,0.1053,5,0.0476,0.0552,5
+spectral_subtraction,0.0,0.0571,0.0782,5,0.0387,0.055,5
+spectral_subtraction,10.0,0.0539,0.0621,5,0.0328,0.0494,5
+spectral_subtraction,20.0,0.0682,0.065,5,0.0354,0.0484,5
