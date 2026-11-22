@@ -1,0 +1,4 @@
+[
+  "tests/test_noise_analysis.py::test_mix_at_snr_has_expected_level",
+  "tests/test_noise_analysis.py::test_spectral_subtraction_preserves_length"
+]
